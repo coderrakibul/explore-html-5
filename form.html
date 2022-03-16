@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Design</title>
+    <link rel="stylesheet" href="styles/nav.css">
+  </head>
+  <body>
+    <header>
+      <h1>Pitha House</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="audio-video.html">Music</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="">
+      <p>Name : <input type="name" placeholder="write your name" /></p>
+      <p>Name : <input type="email" placeholder="write your email" /></p>
+      <fieldset>
+        <legend>Select your pitha</legend>
+        <p>
+          <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy" />Chitoy
+          </label>
+        </p>
+        <p>
+          <label for="vapa">
+            <input type="radio" name="pitha" id="vapa" />Vapa
+          </label>
+        </p>
+        <p>
+          <label for="telpitha">
+            <input type="radio" name="pitha" id="telpitha" />Telpitha
+          </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select Your Vorta</legend>
+        <p>
+          <label for="alu">
+            <input type="checkbox" name="vorta" id="alu" /> Alu
+          </label>
+        </p>
+        <p>
+          <label for="begun"
+            ><input type="checkbox" name="vorta" id="begun" /> Begun
+          </label>
+        </p>
+        <p>
+          <label for="shutki">
+            <input type="checkbox" name="vorta" id="shutki" />
+            Shutki
+          </label>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
